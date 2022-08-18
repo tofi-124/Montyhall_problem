@@ -4,6 +4,7 @@ import random
 def game(inp):
 
     cargoat = ["car", "goat", "goat"]
+
     doors = {
         "a": "",
         "b": "",
@@ -31,7 +32,7 @@ def game(inp):
     if inp == "y":
         playerchoice = str(doors.values())
 
-    print(f"The choices were {cargoat}")
+    print(f"Door A was a {cargoat[0]}, Door B was {cargoat[1]} and Door C was {cargoat[2]}")
 
     if playerchoice == "car":
         print("you win")
